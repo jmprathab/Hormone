@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="thin.blog.hormone.Anp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/app_bar"
+            layout="@layout/app_bar"></include>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="Atrial natriuretic peptide (ANP):"
+            android:textColor="@color/colorPrimary" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/anp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:text="Atrial natriuretic peptide (ANP), atrial natriuretic factor (ANF), atrial natriuretic hormone (ANH), Cardionatrine, Cardiodilatine (CDD) or atriopeptin, is a powerful vasodilator, and a protein (polypeptide) hormone secreted by heart muscle cells."
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:text="Importance: Human ANP is encoded by the NPPA gene on the short arm of chromosome 1, which has 3 exons and 2 introns. The gene is expressed primarily in cardiac myocytes. Lower levels of NPPA expression are found in other tissues such as the brain, kidney, lung, uterus and placenta.\nANP is secreted in response to:\n1.Stretching of the atrial wall.\n2.Reduced Sympathetic stimulation of ﬂ-adrenoceptors.\n3.Raised sodium concentration (hypernatremia), though sodium concentration is not the direct stimulus for increased ANP secretion.\n4.Angiotensin-II.\n5.Endothelin, a potent vasoconstrictor	"
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:text="Working of ANP:"
+            android:textColor="@color/colorPrimary" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/anp1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:text="Defects: It has been shown that atrial natriuretic peptide (ANP), an endogenous vasodilator, dilates coronary arteries and decreases coronary vascular resistance.\nThe purpose of this study was to determine whether an intravenous administration of ANP attenuated exercise-induced myocardial ischemia in 14 patients with stable effort angina pectoris. "
+            android:textColor="@color/colorPrimary" />
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="thin.blog.hormone.Trh">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/app_bar"
+            layout="@layout/app_bar"></include>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="Thyrotropin-releasing hormone (TRH):"
+            android:textColor="@color/colorPrimary" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/trh" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:text="Thyrotropin-releasing hormone is one of the smallest hormones in the body, consisting of a miniature chain of just three amino acid building blocks. "
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:text="Importance: The nerve fibres that come out of it carry the thyrotropin-releasing hormone and release it into the blood surrounding the pituitary gland,where it has its most important action.\nThis is to regulate the formation and secretion of thyroid stimulating hormone in the pituitary gland, which in turn regulates the production of thyroid hormones in the thyroid gland.\nApart from its role in control of pituitary thyroid stimulating hormone and prolactin release, thyrotropin-releasing hormone has a wider distribution in tissues of the nervous system where it may act as a neurotransmitter.\nAs its name implies, the main effect of thyrotropin-releasing hormone is to stimulate the release of thyrotropin (also known as thyroid stimulating hormone) from the pituitary gland.\nThyrotropin-releasing hormone in its pharmaceutical formulation of ëprotireliní used to be widely used as a drug to test whether someone had thyroid overactivity."
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:text="Working of thtroid simulating hormone"
+            android:textColor="@color/colorPrimary" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/trh1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:text="Defects: Side effects after intravenous TRH administration are minimal.\nNausea, flushing, urinary urgency, and mild rise in blood pressure have been reported.\nAfter intrathecal administration, shaking, sweating, shivering, restlessness, and mild rise in blood pressure were observed."
+            android:textColor="@color/colorPrimary" />
+
+
+    </LinearLayout>
+</ScrollView>

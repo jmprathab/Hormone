@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="thin.blog.hormone.Ghrh">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/app_bar"
+            layout="@layout/app_bar"></include>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="Growth hormone-releasing hormone (GHRH):"
+            android:textColor="@color/colorPrimary" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/ghrh" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:text="Growth hormoneñreleasing hormone (GHRH), also known as somatoliberin or by several other names in its endogenous forms and as somatorelin (INN) in its pharmaceutical form, is a releasing hormone of growth hormone (GH).\nIt is a 44-amino acid peptide hormone produced in the arcuate nucleus of the hypothalamus."
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:text="Importance: In order to maintain a balanced hormone production, growth hormone-releasing hormone, somatostatin, growth hormone and insulin-like growth factor 1 levels are regulated by each other.\nIn adults, excessive growth hormone for a long period of time produces a condition known as acromegaly in which patients have swelling of the hands and feet and altered facial features.\nMany other factors and physiological conditions such as sleep, stress, exercise and food intake also affect the hypothalamic release of growth hormone-releasing hormone and somatostatin."
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:text="Working of GHRH:"
+            android:textColor="@color/colorPrimary" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/ghrh1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:text="Defects:(High GHRH): Too much growth hormone-releasing hormone production may be caused by hypothalamic tumours or by tumours located in other parts of the body (ectopic tumours).\nIn adults, excessive growth hormone for a long period of time produces a condition known as acromegaly.\nAn increase in growth hormone before children reach their final height can lead to excessive growth of long bones, resulting in the child being abnormally tall. This is commonly known as gigantism."
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:text="(Low GHRH): If the hypothalamus produces too little growth hormone-releasing hormone, the production and release of growth hormone from the pituitary gland is impaired, leading to a lack of growth hormone (adult growth hormone deficiency).\nChildhood onset growth hormone deficiency is associated with growth failure and delayed physical maturity."
+            android:textColor="@color/colorPrimary" />
+
+
+    </LinearLayout>
+</ScrollView>

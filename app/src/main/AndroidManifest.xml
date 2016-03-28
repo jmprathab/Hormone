@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="thin.blog.hormone">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Hormone"
+            android:parentActivityName=".Hormone" />
+
+        <activity
+            android:name=".Acth"
+            android:parentActivityName=".Hormone" />
+        <activity
+            android:name=".Anp"
+            android:parentActivityName=".Hormone" />
+        <activity
+            android:name=".Crh"
+            android:parentActivityName=".Hormone" />
+        <activity
+            android:name=".Ghrh"
+            android:parentActivityName=".Hormone" />
+        <activity
+            android:name=".Cells"
+            android:parentActivityName=".Hormone" />
+        <activity
+            android:name=".Leptin"
+            android:parentActivityName=".Hormone" />
+        <activity
+            android:name=".Trh"
+            android:parentActivityName=".Hormone" />
+        <activity
+            android:name=".Tthree"
+            android:parentActivityName=".Hormone" />
+    </application>
+
+</manifest>

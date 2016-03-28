@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="thin.blog.hormone.Cells">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/app_bar"
+            layout="@layout/app_bar"></include>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="Insulin cells:"
+            android:textColor="@color/colorPrimary" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/insulin" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:text="Insulin is a hormone made by an organ located behind the stomach called the pancreas. Here, insulin is released into the bloodstream by specialised cells called beta-cells found in areas of the pancreas called islets of Langerhans (the term insulin comes from the Latin insula meaning island). Insulin can also be given as a medicine for patients with diabetes because they do not make enough of their own. It is usually given in the form of an injection."
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:text="Importance: Insulin works in tandem with glucagon, another hormone produced by the pancreas.\nProteins in food and other hormones produced by the gut in response to food also stimulate insulin release.\nWhile insulinís role is to lower blood sugar levels if needed, glucagonís role is to raise blood sugar levels if they fall too low. Using this system, the body ensures that the blood glucose levels remain within set limits, which allows the body to function properly.\nWhile insulinís role is to lower blood sugar levels if needed, glucagonís role is to raise blood sugar levels if they fall too low. Using this system, the body ensures that the blood glucose levels remain within set limits, which allows the body to function properly."
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:text="Working of insulin:"
+            android:textColor="@color/colorPrimary" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/insulin1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:text="Defects:
+	(High Insulin): Diabetic patients are given drugs including insulin treatment to lower their high glucose levels.  However, if a person accidentally injects too much insulin, cells will take in too much glucose from the blood.\nThe brain is particularly affected by low glucose levels. Symptoms include dizziness, confusion and even coma in severe cases. "
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:text="(Low Insulin): In some people, the pancreas is unable to make enough insulin, for example, in a condition called type 1 diabetes.\nType 2 diabetes can be caused by two factors. Firstly, the patientís beta cells may have an impaired ability to manufacture insulin. This means that while some insulin is produced, it is not enough for the bodyís needs."
+            android:textColor="@color/colorPrimary" />
+
+
+    </LinearLayout>
+</ScrollView>

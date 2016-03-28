@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="thin.blog.hormone.Acth">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/app_bar"
+            layout="@layout/app_bar"></include>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="Adrenocorticotropic hormone (ACTH):"
+            android:textColor="@color/colorPrimary" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/acth" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:text="Adrenocorticotropic hormone (ACTH) is a hormone produced in the anterior, or front, pituitary gland in the brain. The function of ACTH is to regulate levels of the steroid hormone cortisol, which released from the adrenal gland."
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:text="Importance: Secretion of adrenocorticotropic hormone is controlled by three inter-communicating regions of the body, the hypothalamus, the pituitary gland and the adrenal glands. This is called the hypothalamic-pituitary-adrenal axis.\nWhen adrenocorticotropic hormone levels in the blood are low, a group of cells in the hypothalamus release a hormone called corticotrophin-releasing hormone which stimulates the pituitary gland to secrete adrenocorticotropic hormone into the bloodstream.\nAs the cortisol levels rise, they start to slow down the release of corticotrophin-releasing hormone from the hypothalamus and adrenocorticotropic hormone from the pituitary gland,As a result, the adrenocorticotropic hormone levels start to fall.  This is called a negative feedback loop."
+            android:textColor="@color/colorPrimary" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/acth1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:text="Defects:(High ACTH): Cushing's disease ñ this is the most common cause of increased adrenocorticotropic hormone. It is caused by a non-cancerous tumour called an adenoma located in the pituitary gland which produces excess amounts of adrenocorticotropic hormone. (Please note, Cushingís disease is just one of the numerous causes of Cushingís syndrome).\nA tumour, outside the pituitary gland, producing adrenocorticotropic hormone (also called ectopic adrenocorticotropic hormone tumour).\nAddison's disease (although cortisol levels are low, adrenocorticotropic hormone levels are raised).\nCongenital adrenal hyperplasia (a genetic disorder with inadequate production of cortisol, aldosterone or both)."
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:text="(Low ACTH): Cushing's syndrome related to an adrenal tumour.\nCushing's syndrome due to steroid medication.\nConditions affecting the pituitary gland, eg, hypopituitarism.\nSide-effect of pituitary surgery or radiation therapy."
+            android:textColor="@color/colorPrimary" />
+
+
+    </LinearLayout>
+</ScrollView>

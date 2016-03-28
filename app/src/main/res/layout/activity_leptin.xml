@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="thin.blog.hormone.Leptin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/app_bar"
+            layout="@layout/app_bar"></include>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="Leptin:"
+            android:textColor="@color/colorPrimary" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/leptin" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:text="Leptin is a hormone that is produced by the fat cells in the body. Its main role is regulating how many calories we eat and burn, as well as how much fat we carry on our bodies."
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:text="Importance: It is often referred to as the ìsatiety hormoneî or the ìstarvation hormone.î/nLeptin is supposed to tell the brain that we have enough fat stored, that we donít need to eat, and that we can burn calories at a normal rate./nLeptinís primary target is in the brain, particularly an area called the hypothalamus./nIt also has many other functions related to fertility, immunity, brain function and others./nThe leptin system evolved to keep us from starving or overeating, both of which would have made us less likely to survive in the natural environment."
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:text="Working of Leptin:"
+            android:textColor="@color/colorPrimary" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/leptin1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:text="Defects: Inflammation: Inflammatory signalling in the hypothalamus is likely an important cause of leptin resistance in both animals and humans./nFree Fatty Acids: Having elevated free fatty acids in the bloodstream may increase fat metabolites in the brain and interfere with leptin signalling./nHaving high leptin: Having elevated levels of leptin in the first place seems to cause leptin resistance."
+            android:textColor="@color/colorPrimary" />
+
+
+    </LinearLayout>
+</ScrollView>

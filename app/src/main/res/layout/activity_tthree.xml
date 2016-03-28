@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="thin.blog.hormone.Tthree">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/app_bar"
+            layout="@layout/app_bar"></include>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="Thyroxine (T4) and triiodothyronine (T3):"
+            android:textColor="@color/colorPrimary" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/t3" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/t4" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:text="(T4): Thyroxine is the main hormone secreted into the bloodstream by the thyroid gland. It is the inactive form and most of it is converted to an active form called triiodothyronine by organs such as the liver and kidneys."
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:text="(T3): Triiodothyronine is the active form of the thyroid hormone, thyroxine. Approximately 20% of triiodothyronine is secreted into the bloodstream directly by the thyroid gland."
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:text="Importance:(Thyroxine): The production and release of thyroid hormones, thyroxine and triiodothyronine, is controlled by a feedback loop system which involves the hypothalamus in the brain and the pituitary and thyroid glands.\nThis hormone stimulates the production of the thyroid hormones, thyroxine and triiodothyronine, by the thyroid gland."
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:text="(Triiodothyronine): The production and release of thyroid hormones, thyroxine and triiodothyronine, is controlled by a feedback system involving the hypothalamus, pituitary gland and thyroid gland.\nActivation of thyroid hormones is then controlled in body tissues such as the liver, brain and kidneys by enzymes called deiodinases which convert thyroxine into the active form triiodothyronine.\nMost of the bodyís circulating triiodothyronine (about 80%) is produced in this way. "
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:text="Working of(thyroxine and triiodothyronine):"
+            android:textColor="@color/colorPrimary" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/t34" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:text="Defects:(Thyroxine): The release of too much thyroxine in the bloodstream is known as thyrotoxicosis.\nThyrotoxicosis can be recognised by a goitre which is a swelling of the neck due to enlargement of the thyroid gland."
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:text="(Triiodothyronine): Irregular menstrual cycle, rapid or irregular heartbeat, palpitations, tiredness, irritability, tremor, hair loss and retraction of the eyelids which results in a ëstaringí appearance.\nHypothyroidism is the term for the production of too little thyroid hormone by the thyroid gland.\nHypothyroidism in adults results in a slowing of the bodyís functions with symptoms such as tiredness, intolerance to cold temperatures, low heart rate, weight gain, reduced appetite, poor memory, depression, stiffness of the muscles and infertility."
+            android:textColor="@color/colorPrimary" />
+
+
+    </LinearLayout>
+</ScrollView>
